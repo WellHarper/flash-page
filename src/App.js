@@ -18,12 +18,12 @@ function App() {
         </Col>
       </Row>
       <Row className="options">
-        <Col md={2} className="option">OI</Col>
-        <Col md={2} className="option">HELLO</Col>
-        <Col md={2} className="option">oLA</Col>
+        <Col md={1} className="option">OI</Col>
+        <Col md={1} className="option">HELLO</Col>
+        <Col md={1} className="option">oLA</Col>
       </Row>
-      <Row>
-          <Col md={6} className="one">
+      <Row className="columns">
+          <Col md={6} className="first-column">
             <Form>
               <Form.Group>
                 <Form.Label> 
@@ -34,29 +34,50 @@ function App() {
                   <option>Exemple</option>
                 </Form.Control>
               </Form.Group>
+              <Form.Group>
               <Form.Label>
                 LOJA
               </Form.Label>
               <Form.Control type="text"/>
+              </Form.Group>
               <Row>
                 <Col md={6}>
+                <Form.Group>
                   <Form.Label>DATA INICIAL</Form.Label>
                   <Form.Control type="date"/>
+                  </Form.Group>
                 </Col>
                 <Col md={6}>
+                <Form.Group>
                   <Form.Label>DATA FINAL</Form.Label>
                   <Form.Control type="date"/>
+                </Form.Group>
                 </Col>
               </Row>
+              <Form.Group>
               <Form.Label>
                 EXCLUSIVO DO CLUBE?
               </Form.Label>
-              <Row></Row>
+              <br></br>
               <Form.Check inline type="radio" label="SIM" name="option"/>
               <Form.Check inline type="radio" label="NÃO" name="option"/>
-              
-
-            </Form>
+              </Form.Group>
+            </Form> 
+          </Col>
+          <Col md={6} className="second-column">
+            <label>CANAIS</label>
+            <div className="canais">
+              SMS
+            </div>
+            <div className="canais">
+              Push
+            </div>
+            <div className="canais">
+              Banner no App
+            </div>
+            <div className="canais">
+              Email-Marketing
+            </div>
           </Col>
       </Row>
       
