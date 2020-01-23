@@ -1,9 +1,20 @@
 .App {
+ margin: 0;
+ padding: 0;
+
+
+}
+
+body {
+
   background-size: 100% 100%;
   background-image: url("/background.jpg");
+  background-repeat: no-repeat;
+
+}
 
 
-}h1 {
+h1 {
   text-align: center;
   color: purple;
 }
@@ -20,9 +31,11 @@
 }
 
 .foto {
-  border-radius: 60px;
-  background-color: gray;
+  border-radius:32px;
+  background-color:#CCC;
   padding: 5px;
+  width: 32px;
+  height: 32px;
 }
 
 .title {
@@ -43,8 +56,21 @@
   }
 
   .option {
-    border-radius: 1px;
-    border-top: black;
-    border-left: black;
-    border-right: black ;
+    border-top-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border: 1px solid #cbe6e1;
+    background-color: #e5eaf2;
+    padding: 0;
+    margin-left: 5px;
+    width: 150px;
   }
+
+  .option:first-child {
+    margin-left: 20px;
+  } 
+  
+  .two {
+    padding: 0;
+  }
+
+  
