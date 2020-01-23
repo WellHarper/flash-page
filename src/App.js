@@ -18,9 +18,9 @@ function App() {
         </Col>
       </Row>
       <Row className="options">
-        <Col md={1} className="option">OI</Col>
-        <Col md={1} className="option">HELLO</Col>
-        <Col md={1} className="option">oLA</Col>
+        <Col md={2} className="option">OI</Col>
+        <Col md={2} className="option">HELLO</Col>
+        <Col md={2} className="option">oLA</Col>
       </Row>
       <Row className="columns">
           <Col md={6} className="first-column">
@@ -41,7 +41,7 @@ function App() {
               <Form.Control type="text"/>
               </Form.Group>
               <Row>
-                <Col md={6}>
+                <Col md={7}>
                 <Form.Group>
                   <Form.Label>DATA INICIAL</Form.Label>
                   <Form.Control type="date"/>
@@ -64,7 +64,7 @@ function App() {
               </Form.Group>
             </Form> 
           </Col>
-          <Col md={6} className="second-column">
+          <Col md={5} className="second-column">
             <label>CANAIS</label>
             <div className="canais">
               SMS
