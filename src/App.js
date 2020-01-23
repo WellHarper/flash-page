@@ -48,10 +48,15 @@ function App() {
                   <Form.Control type="date"/>
                 </Col>
               </Row>
+              <Form.Label>
+                EXCLUSIVO DO CLUBE?
+              </Form.Label>
+              <Row></Row>
+              <Form.Check inline type="radio" label="SIM" name="option"/>
+              <Form.Check inline type="radio" label="NÃO" name="option"/>
+              
+
             </Form>
-          </Col>
-          <Col md={6} className="two">
-            aaaaaaaaaaaaaaaaaaaaaaaa
           </Col>
       </Row>
       
