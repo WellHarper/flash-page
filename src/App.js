@@ -37,7 +37,7 @@ function App() {
           <Col md={6} className="first-column">
             <Form>
               <Form.Group>
-                <Form.Label> 
+                <Form.Label className="lab"> 
                   SHOPPING*
                 </Form.Label>
                 <Form.Control as="select">
@@ -46,7 +46,7 @@ function App() {
                 </Form.Control>
               </Form.Group>
               <Form.Group>
-              <Form.Label>
+              <Form.Label className="lab">
                 LOJA
               </Form.Label>
               <Form.Control type="text"/>
@@ -54,19 +54,19 @@ function App() {
               <Row>
                 <Col md={6}>
                 <Form.Group>
-                  <Form.Label>DATA INICIAL</Form.Label>
+                  <Form.Label className="lab">DATA INICIAL</Form.Label>
                   <Form.Control type="date"/>
                   </Form.Group>
                 </Col>
                 <Col md={6}>
                 <Form.Group>
-                  <Form.Label>DATA FINAL</Form.Label>
+                  <Form.Label className="lab">DATA FINAL</Form.Label>
                   <Form.Control type="date"/>
                 </Form.Group>
                 </Col>
               </Row>
               <Form.Group className="last">
-              <Form.Label>
+              <Form.Label className="lab">
                 EXCLUSIVO DO CLUBE?
               </Form.Label>
               <br></br>
@@ -76,7 +76,7 @@ function App() {
             </Form> 
           </Col>
           <Col md={5} className="second-column">
-            <label>CANAIS</label>
+            <label className="lab">CANAIS</label>
             <div className="canais">
               SMS
             </div>
