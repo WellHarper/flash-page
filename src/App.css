@@ -16,7 +16,10 @@ body {
 
 h1 {
   text-align: center;
-  color: purple;
+  color: #563062;
+  font-weight: 700;
+  font-size: 32px;
+
 }
 
 .avatar {
@@ -61,6 +64,7 @@ h1 {
   }
 
   .option {
+    font-weight: 600;
     border-top-left-radius: 5px;
     border-top-left-radius: 5px;
     border: 1px solid #cbe6e1;
@@ -84,6 +88,7 @@ h1 {
 
   .lab {
     color: #6b6a69;
+    font-weight: 600;
   }
 
   .second-column {
@@ -126,6 +131,8 @@ h1 {
     padding-bottom: 10px;
     padding-left: 5px;
     font-weight: 100;
+    color: #4f7872;
+
   }
 
   .last {
