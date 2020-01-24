@@ -32,6 +32,7 @@ function App() {
           TODOS FLASHES
         </Col>
       </Row>
+      <div>
       <Row className="columns">
           <Col md={6} className="first-column">
             <Form>
@@ -90,17 +91,19 @@ function App() {
             </div>
           </Col>
       </Row>
-      <div className="first-button-zone">
+      <Row>
+      <Col md={12} className="first-button-zone">
         <span className="obs">*campos obrigatórios</span>
         <br/>
         <submit type="button" class="button publish-button">Publicar</submit>
-      </div>
+      </Col>
 
-      <div className="second-button-zone">
+      <Col md={12} className="second-button-zone">
         <submit type="button" className="button drop-button">Apagar</submit>
         <submit type="button" className="button save-button">Salvar</submit>
+      </Col>
+      </Row>
       </div>
-     
     </div>
   );
 }
