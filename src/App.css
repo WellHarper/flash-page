@@ -176,3 +176,10 @@ h1 {
     text-align: end;
    
   }
+
+  .more {
+    float: right;
+    margin-right: 5px;
+    
+    padding-bottom: 12px;
+  }

@@ -79,15 +79,19 @@ function App() {
             <label className="lab">CANAIS</label>
             <div className="canais">
               SMS
+              <img className="more" src="./more.svg"></img>
             </div>
             <div className="canais">
               Push
+              <img className="more" src="./more.svg"></img>
             </div>
             <div className="canais">
               Banner no App
+              <img className="more" src="./more.svg"></img>
             </div>
             <div className="canais">
               Email-Marketing
+              <img className="more" src="./more.svg"></img>
             </div>
           </Col>
       </Row>
