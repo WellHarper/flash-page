@@ -10,7 +10,7 @@ body {
   background-size: 100% 100%;
   background-image: url("/background.jpg");
   background-repeat: no-repeat;
-
+  font-family: 'Arvo', serif;
 }
 
 
@@ -64,18 +64,27 @@ h1 {
     margin-left: 5px;
     width: 150px;
     padding: 15px;
+    align-items: center;
   }
 
   .option:first-child {
     margin-left: 20px;
   } 
   
+  .icon {
+    margin-right: 10px;
+    margin-bottom: 6px;
+  }
+
   .second-column {
     padding-top: 30px;
     margin-left: 30px;
   }
 
-
+.columns {
+  background-color: #ffffff;
+  border: 1px solid #cbe6e1;
+}
   .first-column {
     padding-top: 30px;
   }

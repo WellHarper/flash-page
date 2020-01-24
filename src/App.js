@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './font.css';
 import {Row, Col,Form, FormGroup} from 'react-bootstrap';
 
 function App() {
@@ -18,9 +19,18 @@ function App() {
         </Col>
       </Row>
       <Row className="options">
-        <Col md={2} className="option">OI</Col>
-        <Col md={2} className="option">HELLO</Col>
-        <Col md={2} className="option">oLA</Col>
+        <Col md={2} className="option">
+          <img className="icon" src='./new.svg'/> 
+          NOVO FLASH
+        </Col>
+        <Col md={2} className="option">
+          <img className="icon"  src="./report.svg"/>
+          RELATÓRIO
+        </Col>
+        <Col md={2} className="option">
+          <img className="icon" src='./control.svg' />
+          TODOS FLASHES
+        </Col>
       </Row>
       <Row className="columns">
           <Col md={6} className="first-column">
@@ -41,7 +51,7 @@ function App() {
               <Form.Control type="text"/>
               </Form.Group>
               <Row>
-                <Col md={7}>
+                <Col md={6}>
                 <Form.Group>
                   <Form.Label>DATA INICIAL</Form.Label>
                   <Form.Control type="date"/>
