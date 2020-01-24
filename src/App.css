@@ -81,10 +81,13 @@ h1 {
     margin-left: 30px;
   }
 
-.columns {
-  background-color: #ffffff;
-  border: 1px solid #cbe6e1;
-}
+  .principal {
+    background-color: #ffffff;
+    border: 1px solid #cbe6e1;
+    margin-bottom: 50px;
+  }
+
+  
   .first-column {
     padding-top: 30px;
   }
@@ -107,6 +110,13 @@ h1 {
     border-radius: 5px;
     margin-bottom: 45px;
     height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+  }
+
+  .last {
+    margin-top: 10px;
   }
   .button {
     font-family: "Arvo", serif;

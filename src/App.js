@@ -32,7 +32,7 @@ function App() {
           TODOS FLASHES
         </Col>
       </Row>
-      <div>
+      <div className="principal">
       <Row className="columns">
           <Col md={6} className="first-column">
             <Form>
@@ -65,7 +65,7 @@ function App() {
                 </Form.Group>
                 </Col>
               </Row>
-              <Form.Group>
+              <Form.Group className="last">
               <Form.Label>
                 EXCLUSIVO DO CLUBE?
               </Form.Label>
