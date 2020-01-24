@@ -40,10 +40,13 @@ h1 {
 
 .title {
   scroll-margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .title span {
   color:#d5dbd9;
+  font-family: Arial, Helvetica, sans-serif;
+  
 }
 .avatar::after {
     content: '';
@@ -68,7 +71,7 @@ h1 {
   }
 
   .option:first-child {
-    margin-left: 20px;
+    margin-left: 45px;
   } 
   
   .icon {
@@ -85,11 +88,13 @@ h1 {
     background-color: #ffffff;
     border: 1px solid #cbe6e1;
     margin-bottom: 50px;
+    margin-left: 15px;
   }
 
   
   .first-column {
     padding-top: 30px;
+    margin-left:10px;
   }
   .second-column h6 {
     font-size: 14px;
