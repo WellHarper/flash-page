@@ -108,5 +108,40 @@ h1 {
     margin-bottom: 45px;
     height: 40px;
   }
+  .button {
+    font-family: "Arvo", serif;
+    font-weight: 600;
+    color: #fff;
+    background-color: #563062;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 13px;
+    font-size: 0.8125rem;
+  }
 
+  .publish-button {
+    text-align: center;
+  }
   
+  .first-button-zone {
+    text-align: center;
+   
+  }
+  .obs {
+    font-size: 0.625rem;
+  }
+
+  .drop-button {
+    background-color: #9d9e9f  ;
+  }
+
+  .save-button {
+      background-color: #54bbab ;
+  }
+
+  .second-button-zone {
+    float: right;
+   
+  }

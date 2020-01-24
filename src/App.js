@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import './font.css';
-import {Row, Col,Form, FormGroup} from 'react-bootstrap';
+import {Row, Col,Form, Button} from 'react-bootstrap';
 
 function App() {
   return (
@@ -90,8 +90,17 @@ function App() {
             </div>
           </Col>
       </Row>
-      
-      
+      <div className="first-button-zone">
+        <span className="obs">*campos obrigatórios</span>
+        <br/>
+        <submit type="button" class="button publish-button">Publicar</submit>
+      </div>
+
+      <div className="second-button-zone">
+        <submit type="button" className="button drop-button">Apagar</submit>
+        <submit type="button" className="button save-button">Salvar</submit>
+      </div>
+     
     </div>
   );
 }
